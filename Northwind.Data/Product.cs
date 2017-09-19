@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Northwind.Data
 {
     [Table("Products")]
-    public class Product //Keep in singular
+    public class Product // Keep in singular
     {
         [Key]
         public int ProductID { get; set; }
@@ -23,5 +23,7 @@ namespace Northwind.Data
         public short? ReorderLevel { get; set; }
         public bool Discontinued { get; set; }
 
+        // Navigational Property
+        public virtual Supplier Supplier { get; set; }
     }
 }

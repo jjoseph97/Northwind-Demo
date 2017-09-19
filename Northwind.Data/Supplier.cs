@@ -24,5 +24,8 @@ namespace Northwind.Data
         public string Phone { get; set; }
         public string Fax { get; set; }
         public string HomePage { get; set; }
+
+        // Navigation Properties
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

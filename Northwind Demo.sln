@@ -3,8 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{D1A60B6B-FBC3-4C4B-9306-E8D312BC1372}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5738"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5738\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5738"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5738\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5738"
+		SlnRelativePath = "Website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Data", "Northwind.Data\Northwind.Data.csproj", "{88A6FBC3-F108-429A-AC5D-42DB31214A69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Console", "Northwind.Console\Northwind.Console.csproj", "{DE48A32C-C41D-41FA-855D-CB5B7495CFDC}"
+EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +40,14 @@ Global
 		{88A6FBC3-F108-429A-AC5D-42DB31214A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88A6FBC3-F108-429A-AC5D-42DB31214A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88A6FBC3-F108-429A-AC5D-42DB31214A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE48A32C-C41D-41FA-855D-CB5B7495CFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE48A32C-C41D-41FA-855D-CB5B7495CFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE48A32C-C41D-41FA-855D-CB5B7495CFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE48A32C-C41D-41FA-855D-CB5B7495CFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A60B6B-FBC3-4C4B-9306-E8D312BC1372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A60B6B-FBC3-4C4B-9306-E8D312BC1372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A60B6B-FBC3-4C4B-9306-E8D312BC1372}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A60B6B-FBC3-4C4B-9306-E8D312BC1372}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

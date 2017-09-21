@@ -25,5 +25,6 @@ namespace Northwind.Data
 
         // Navigational Property
         public virtual Supplier Supplier { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

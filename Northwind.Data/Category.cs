@@ -17,7 +17,7 @@ namespace Northwind.Data
         public string Description { get; set; }
         public byte[] Picture { get; set; }
 
-        // Navigation Property
+        // Navigation Properties
         public ICollection<Supplier> Suppliers { get; set; }
     }
 }

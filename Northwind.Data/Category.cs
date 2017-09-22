@@ -18,6 +18,6 @@ namespace Northwind.Data
         public byte[] Picture { get; set; }
 
         // Navigation Properties
-        public ICollection<Supplier> Suppliers { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }

@@ -9,10 +9,10 @@ namespace Northwind.Data
 {
     public class NorthwindContext : DbContext
     {
-        public NorthwindContext() : base("name=NW") //name of the <connectionString><add name=""...>
+        public NorthwindContext() : base("name=NW") // name of the <connectionString><add name="" ...
         {
-            //Since EF6 (by default) will want to create a database id it can't find it,
-            //we can turn that feature off programmatically in our DbContext conctructor.
+            // Since EF6 (by default) will want to create a database if it can't find it,
+            // we can turn that feature off programmatically in our DbContext constructor.
             Database.SetInitializer<NorthwindContext>(null);
         }
 
@@ -22,6 +22,11 @@ namespace Northwind.Data
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Territory> Territories { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Shipper> Shippers { get; set; }
+        public DbSet<Region> Regions { get; set; }
 
 
         // Override base class method that does the details of mapping entities to the database
@@ -33,9 +38,6 @@ namespace Northwind.Data
             // DEMO: Many-to-Many Relationship Mapping
             modelBuilder
                 .Entity<Employee>().HasMany(e => e.Territories)
-
-                // DEMO:Many-to-Many Relationships
-
                 .WithMany(t => t.Employees)
                 .Map(m => m.ToTable("EmployeeTerritories").MapLeftKey("EmployeeID").MapRightKey("TerritoryID"));
 

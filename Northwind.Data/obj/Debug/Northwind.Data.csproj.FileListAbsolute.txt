@@ -8,7 +8,6 @@ C:\Users\jjoseph12\Documents\GitHub\DMIT2018 - Sep-In-Class\Northwind Demo\North
 C:\Users\jjoseph12\Documents\GitHub\DMIT2018 - Sep-In-Class\Northwind Demo\Northwind.Data\obj\Debug\Northwind.Data.csprojResolveAssemblyReference.cache
 C:\Users\jjoseph12\Documents\GitHub\DMIT2018 - Sep-In-Class\Northwind Demo\Northwind.Data\obj\Debug\Northwind.Data.dll
 C:\Users\jjoseph12\Documents\GitHub\DMIT2018 - Sep-In-Class\Northwind Demo\Northwind.Data\obj\Debug\Northwind.Data.pdb
-C:\Users\jjoseph12\Documents\GitHub\Northwind-Demo\Northwind.Data\obj\Debug\Northwind.Data.csprojResolveAssemblyReference.cache
 C:\Users\jjoseph12\Documents\GitHub\Northwind-Demo\Northwind.Data\obj\Debug\Northwind.Data.dll
 C:\Users\jjoseph12\Documents\GitHub\Northwind-Demo\Northwind.Data\obj\Debug\Northwind.Data.pdb
 C:\Users\jjoseph12\Documents\GitHub\Northwind-Demo\Northwind.Data\bin\Debug\Northwind.Data.dll.config

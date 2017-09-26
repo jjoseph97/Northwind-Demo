@@ -38,10 +38,6 @@ namespace Northwind.App.BLL
             }
         }
 
-        public object AllProductsByCategory()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
 

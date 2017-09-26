@@ -13,7 +13,7 @@ public partial class ProductCatalog : System.Web.UI.Page
         if(!IsPostBack)  // do this setup once, on the first visit
         {
             var controller = new ProductController();
-            var data = controller.AllProductsByCategory();
+            var data = controller.AllProductsCategory();
             CategoryRepeater.DataSource = data;
             CategoryRepeater.DataBind();
         }

@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Northwind.Data
 {
     [Table("Products")]
-    public class Product // Keep in singular
+    public class Product // Keep in the singular
     {
         [Key]
         public int ProductID { get; set; }

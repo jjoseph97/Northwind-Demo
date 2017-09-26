@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -27,7 +28,7 @@ namespace Northwind.Data
 
         #region Navigational Properties
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
-        [ForeignKey("ShipVia")]
+        [ForeignKey("ShipVia")] // Tell EF which property to use as Foreign Key data
         public virtual Shipper Shipper { get; set; }
         public virtual Customer Customer { get; set; }
         public virtual Employee Employee { get; set; }
